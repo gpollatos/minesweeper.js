@@ -1,0 +1,22 @@
+# Project specific
+#####################
+target-loadable
+target
+import-portal.zip
+_velti_dev*
+
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+#._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

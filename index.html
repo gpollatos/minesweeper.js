@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link href="MineSweeper.css" media="screen, print" rel="stylesheet"/>
+</head>
+<body>
+
+
+<div class="minesweeper" id="minesweewer">
+    <div id="menu">
+        <ul>
+            <li><label for="minesweeper_size">Grid size </label><input id="minesweeper_size" type="text" value="3"/>
+            </li>
+            <li><label for="minesweeper_mines">No of mines</label> <input id="minesweeper_mines" type="text" value="2"/>
+            </li>
+            <li>
+                <button id="minesweeper_init_button" value="">create minefield</button>
+            </li>
+        </ul>
+        <div class="info">
+            <label for="minesweeper_tries">Remaining tries <input type="text" disabled id="minesweeper_tries"/></label>
+        </div>
+    </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="MineSweeper.js"></script>
+</body>
+</html>
