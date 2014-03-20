@@ -1,9 +1,6 @@
 # Project specific
 #####################
-target-loadable
-target
-import-portal.zip
-_velti_dev*
+
 
 # Intellij
 ######################
